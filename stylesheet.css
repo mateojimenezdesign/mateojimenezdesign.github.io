@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+font-family: borisblackboxx;
+src: url(borisblackboxx.ttf);
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-family:'Istok Web';
+}
+
+body
+{
+	background-color:#4791FF;
+}
+
+p {
+	color:white;
+	font-family:'Istok Web';
+	font-size:22px;
+	text-align:center;
+}
+
+form {
+	color:white;
+	font-family:'Istok Web';
+	text-align:center;
+	font-size:22px;
+}
+
+span {
+	color:red;
+}
+
+input {
+	font-size:20px;
+	font-family:'Istok Web';
+}

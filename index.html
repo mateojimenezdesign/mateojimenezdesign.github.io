@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mateo Jimenez Interior Design | Login</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Istok+Web:700">
+		<script>
+        function validateUser() {
+            if (document.getElementById("txtName").value == "misscrook" && document.getElementById("txtPass").value == "year4") {
+                location.href = "l213bu4kk56.html";
+            } else {
+                document.getElementById("spnInfo").innerHTML = "Wrong Username or Password. Try again.<br/>";
+            }
+        }
+    </script>
+    </head>
+
+	<body>
+    	<h1>Login To Access The Website</h1>
+	
+    <!--Old Form:
+    <form name="myform" action="http://mateojimenez.com" method="POST">
+		<div align="center">
+<p>Enter Password: </p><input type="password" size="25">
+		</div>
+        <div align="center"><input type="submit"></div>
+	</form>-->
+    
+    <form>
+        <span id="spnInfo"></span>
+        
+        Username: <input type="text" id="txtName" size="18" /><br/>
+        Password: <input type="password" id="txtPass" size="18" /><br/>
+        <input type="button" value="Log in" onclick="validateUser()"/>
+    </form>
+	</body>
+</html>
